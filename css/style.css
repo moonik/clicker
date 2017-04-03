@@ -1,0 +1,36 @@
+.content{
+  text-align:center;
+  margin-top: 50px;
+}
+.cookie{
+  outline: none;
+}
+
+.speech-bubble {
+     background-color: #f4911c;
+     border: 3px solid #662f8c;
+     border-radius: 5px;
+     width: 500px;
+     text-align: center;
+     padding: 20px;
+     position: relative;
+     margin: 0 0 40px;
+ }
+ .speech-bubble:before {
+     border-color: #662f8c transparent transparent transparent;
+     border-width: 8px 8px 0px 8px;
+     border-style: dotted;
+     position: absolute;
+     left: 9px;
+     bottom: -8px;
+     content:'';
+ }
+ .speech-bubble:after {
+     border-color: #f4911c transparent;
+     border-style: dotted;
+     border-width: 7px 7px 0px;
+     bottom: -7px;
+     content:'';
+     position: absolute;
+     left: 10px;
+ }
